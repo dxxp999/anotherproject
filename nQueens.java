@@ -42,6 +42,7 @@ private static boolean isSafe(boolean[][] maze, int r, int c) {
     for (int i = 1; i <= maxLeft; i++) {
         if(maze[r-i][c-i])
         return false;
+        // added a comment
     }
 
     // check for right-diagonal
